@@ -6,23 +6,71 @@
 
     <style>
 
+        /*.header-fixed {
+            position: fixed;
+        }*/
+
+        .header {
+            width: 100%;
+            z-index: 102;
+        }
+
         .header-logo {
             width: 100px;
             height: 50px;
-            padding-top: 5%;
+            padding-top: 2%;
         }
+
+        .nav-overflow {
+            display: inline;
+        }
+        .nav {
+            display: flex;
+        }
+        .nav-link {
+            color: white;
+            min-height: 100px;
+            /*display: block;*/
+            align-items: center;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .li {
+            float: left;
+        }
+
+
     </style>
 
 </head>
 
 
 <body>
-    <header class="header">
-        <div class="header-main" style="background-color:black">
-            <div class="header-logo">
-                <a href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
-            </div>
+<header class="header-fixed">
+    <div class="header-main" style="background-color: black">
+        <div class="header-logo">
+            <a href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
         </div>
-    </header>
+        <nav class="header-nav" id="headerNavigation">
+            <div class="nav-overflow">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link">Cases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Cases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Cases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Cases</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
 </body>
 </html>
