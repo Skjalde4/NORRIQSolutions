@@ -18,7 +18,7 @@
         .header-main {
             flex-wrap: wrap;
             padding: 0 15px;
-            height: 80px;
+            height: 100px;
             position: static;
             display: flex;
             flex-direction: row;
@@ -27,19 +27,21 @@
         }
 
         .header-logo {
-            height: 70px;
+            height: auto;
             flex: 1 0 10%;
             order: 1;
             justify-content: flex-start;
             text-align: left;
             max-width: 10%;
+            padding-top: 15px;
         }
 
         .header-center {
             justify-content: center;
             order: 2;
-            flex-basis: 30%;
+            flex-basis: 75%;
             max-width: 80%;
+            height: 100%
         }
 
         .header-right {
@@ -52,15 +54,23 @@
             flex-grow: 1;
             flex-shrink: 0;
             flex-basis: 30%;
-            max-width: 30%;
+            max-width: 10%;
+            height: 100%;
+            padding-right: 20px;
         }
 
+        .header-nav {
+            height: 80%;
+
+        }
         .nav-overflow {
             display: inline;
         }
 
         .nav {
             display: flex;
+            justify-content: center;
+            height: 100%;
         }
 
         .nav-link {
@@ -69,12 +79,17 @@
             display: block;
             align-items: center;
             text-align: center;
-            font-size: 14px;
+            font-size: 16px;
         }
 
-        .li {
-            float: left;
+        .nav-item {
+            padding: 20px;
         }
+
+        .header-button {
+            background: transparent;
+        }
+
     </style>
 
 </head>
@@ -94,19 +109,34 @@
                                 <a class="nav-link">Cases</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Cases</a>
+                                <a class="nav-link">Find din løsning</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Cases</a>
+                                <a class="nav-link">Kom i gang</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Cases</a>
+                                <a class="nav-link">Derfor NORRIQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Inspiration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Job</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Om os</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Kontakt</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
             <div class="header-right">
+                <button class="header-button" name="BtnSearch"> <img src="../image/SearchIcon.png" /></button>
+                <button class="header-button" name="BtnLanguage"> <img src="../image/LanguageIcon.png" /></button>
+                <button class="header-button" name="BtnCare"> <img src="../image/NORRIQCareIcon.png" /></button>
             </div>
         </div>
     </header>

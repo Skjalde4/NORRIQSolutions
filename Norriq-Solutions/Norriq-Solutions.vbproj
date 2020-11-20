@@ -203,8 +203,11 @@
     </None>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="image\LanguageIcon.png" />
     <Content Include="image\NORRIQ-Logo-WhiteBlue.svg" />
     <Content Include="image\NORRIQ-logo.png" />
+    <Content Include="image\NORRIQCareIcon.png" />
+    <Content Include="image\SearchIcon.png" />
     <Content Include="Pages\NORRIQFrontPage.html" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
