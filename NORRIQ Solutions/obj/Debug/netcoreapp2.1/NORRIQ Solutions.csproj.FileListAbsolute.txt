@@ -14,3 +14,19 @@ C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.RazorTargetAssemblyInfo.cache
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.dll
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.pdb
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ Solutions.deps.json
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ Solutions.runtimeconfig.json
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ Solutions.runtimeconfig.dev.json
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ Solutions.dll
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ Solutions.pdb
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.csprojAssemblyReference.cache
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.RazorAssemblyInfo.cache
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.RazorAssemblyInfo.cs
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.AssemblyInfoInputs.cache
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.AssemblyInfo.cs
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.RazorTargetAssemblyInfo.cache
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.dll
+C:\Users\helen\source\repos\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ Solutions.pdb
