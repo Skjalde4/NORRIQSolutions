@@ -10,26 +10,29 @@
             position: fixed;
         }*/
 
-        .header {
+        /*.header {
             width: 100%;
             z-index: 102;
+        }*/
+
+        .header-main {
+            flex-wrap: wrap;
+            padding: 0 15px;
+            height: 80px;
+            position: static;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .header-logo {
-            width: 100px;
-            height: 50px;
-            padding-top: 2%;
-            display: flex;
-            flex: 1 0 30%;
-            flex-grow: 1;
-            flex-shrink: 0;
-            flex-basis: 30%;
-            
-            
-            align-items: center;
+            height: 70px;
+            flex: 1 0 10%;
             order: 1;
             justify-content: flex-start;
             text-align: left;
+            max-width: 10%;
         }
 
         .header-center {
@@ -52,7 +55,7 @@
             max-width: 30%;
         }
 
-        /*.nav-overflow {
+        .nav-overflow {
             display: inline;
         }
 
@@ -71,7 +74,7 @@
 
         .li {
             float: left;
-        }*/
+        }
     </style>
 
 </head>
@@ -81,13 +84,29 @@
     <header class="header-fixed">
         <div class="header-main" style="background-color: black">
             <div class="header-logo">
-                <a href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+                <a class="header-logo" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
             </div>
             <div class="header-center">
-
+                <nav class="header-nav" id="headerNavigation">
+                    <div class="nav-overflow">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link">Cases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Cases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Cases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Cases</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
             <div class="header-right">
-
             </div>
         </div>
     </header>

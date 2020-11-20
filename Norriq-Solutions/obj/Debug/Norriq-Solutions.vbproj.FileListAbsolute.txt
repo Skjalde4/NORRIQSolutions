@@ -161,3 +161,4 @@ C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-So
 C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.xml
 C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.pdb
 C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.vbprojAssemblyReference.cache
+C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.vbprojAssemblyReference.cache
