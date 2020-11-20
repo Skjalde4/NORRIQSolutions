@@ -73,7 +73,6 @@ C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\bin\System
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\bin\Newtonsoft.Json.xml
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\bin\Antlr3.Runtime.pdb
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.vbprojAssemblyReference.cache
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq_Solutions.Resources.resources
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.vbproj.GenerateResource.cache
 C:\Users\helen\Source\Repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.vbproj.CopyComplete
@@ -161,3 +160,4 @@ C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-So
 C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.dll
 C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.xml
 C:\Users\helen\Source\Repos\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.pdb
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\Norriq-Solutions\obj\Debug\Norriq-Solutions.vbprojAssemblyReference.cache
