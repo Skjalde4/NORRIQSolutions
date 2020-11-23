@@ -3,133 +3,72 @@
 <head>
     <meta charset="utf-8" />
     <title>NORRIQ</title>
-
-    <style>
-
-        .header-main {
-            flex-wrap: wrap;
-            padding: 0 15px;
-            height: 100px;
-            position: static;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .header-logo {
-            height: auto;
-            flex: 1 0 10%;
-            order: 1;
-            justify-content: flex-start;
-            text-align: left;
-            max-width: 10%;
-            padding-top: 15px;
-        }
-
-        .header-center {
-            justify-content: center;
-            order: 2;
-            flex-basis: 75%;
-            max-width: 80%;
-            height: 100%
-        }
-
-        .header-right {
-            order: 2;
-            justify-content: flex-end;
-            display: flex;
-            align-items: center;
-            height: 100%;
-            flex: 1 0 30%;
-            flex-grow: 1;
-            flex-shrink: 0;
-            flex-basis: 30%;
-            max-width: 10%;
-            height: 100%;
-            padding-right: 20px;
-        }
-
-        .header-nav {
-            height: 80%;
-
-        }
-        .nav-overflow {
-            display: inline;
-        }
-
-        .nav {
-            display: flex;
-            justify-content: center;
-            height: 100%;
-        }
-
-        .nav-link {
-            color: white;
-            min-height: 100px;
-            display: block;
-            align-items: center;
-            text-align: center;
-            font-size: 16px;
-        }
-
-        .nav-item {
-            padding: 20px;
-        }
-
-        .header-button {
-            background: transparent;
-        }
-
-    </style>
+    <link rel="stylesheet" href="../CSS/NORRIQFrontPage.css"/>
 
 </head>
-
-
 <body>
-    <header class="header-fixed">
-        <div class="header-main" style="background-color: black">
-            <div class="header-logo">
-                <a class="header-logo" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
-            </div>
-            <div class="header-center">
-                <nav class="header-nav" id="headerNavigation">
-                    <div class="nav-overflow">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link">Cases</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Find din løsning</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Kom i gang</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Derfor NORRIQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Inspiration</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Job</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Om os</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="header-right">
-                <button class="header-button" name="BtnSearch"> <img src="../image/SearchIcon.png" /></button>
-                <button class="header-button" name="BtnLanguage"> <img src="../image/LanguageIcon.png" /></button>
-                <button class="header-button" name="BtnCare"> <img src="../image/NORRIQCareIcon.png" /></button>
-            </div>
+<header class="header-fixed">
+    <div class="header-main" style="background-color: transparent">
+        <div class="header-logo">
+            <a class="header-logo" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
         </div>
-    </header>
+        <div class="header-center">
+            <nav class="header-nav" id="headerNavigation">
+                <div class="nav-overflow">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link">Cases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="NORRIQSolutionsPage.html">Find din løsning</a>
+                            <!--<div class="nav-mega-menu" id="1">
+                                <div class="nav-overflow">
+                                    <ul class="nav-submenu">
+                                        <li>
+                                            <button class="nav-close" data-toggle="slideoutSub" data-target="#1"></button>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a class="sub-menu-link" href="NORRIQSolutionsPage.html"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Kom i gang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Derfor NORRIQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Inspiration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Job</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Om os</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <button class="header-button" name="BtnSearch"> <img src="../image/SearchIcon.png" /></button>
+            <button class="header-button" name="BtnLanguage"> <img src="../image/LanguageIcon.png" /></button>
+            <button class="header-button" name="BtnCare"> <img src="../image/NORRIQCareIcon.png" /></button>
+        </div>
+    </div>
+</header>
+<!--<div class="banner-full" style="background-image: url(/image/FrontPageBackground.png)">
+</div>-->
+<div class="banner-video">
+    <video muted autoplay loop id="video" style="height: 100%">
+        <source src="https://vod-progressive.akamaized.net/exp=1606143580~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F433%2F19%2F477168525%2F2130853601.mp4~hmac=691d2af22df47f849619ecc9e12cf0d32af67a72b4d29db715b7a806d8e2c91d/vimeo-prod-skyfire-std-us/01/433/19/477168525/2130853601.mp4?filename=clouds.mp4&amp;fbclid=IwAR1LS2F182NwgrBStHDJEg9gTdMUGog5vtbIUWYS9hU47xACIWMPhGC1dTc" type="video/mp4"/>
+    </video>
+</div>
 </body>
 </html>

@@ -183,6 +183,8 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="CSS\NORRIQFrontPage.css" />
+    <Content Include="CSS\NORRIQSolutionsFrontPage.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -203,12 +205,15 @@
     </None>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="image\FrontPageBackground.png" />
     <Content Include="image\LanguageIcon.png" />
     <Content Include="image\NORRIQ-Logo-WhiteBlue.svg" />
     <Content Include="image\NORRIQ-logo.png" />
     <Content Include="image\NORRIQCareIcon.png" />
+    <Content Include="image\NORRIQSolutionsLogo.png" />
     <Content Include="image\SearchIcon.png" />
     <Content Include="Pages\NORRIQFrontPage.html" />
+    <Content Include="Pages\NORRIQSolutionsPage.html" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
