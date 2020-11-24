@@ -4,7 +4,14 @@
 
 .main-body {
     color: white;
-    padding-top: 100px;
-    text-align: center;
-    font-size: 20px;
+    margin: 4% 40%;
 }
+
+label {
+    color: #5dbcd2;
+}
+
+input [type=submit] {
+    align-items: end;
+}
+

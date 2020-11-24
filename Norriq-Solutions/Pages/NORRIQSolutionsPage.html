@@ -14,6 +14,18 @@
 </div>
 <div class="main-body">
     <p>Hvad har du brug for hjælp til?</p>
+    <form action="../Pages/NORRIQSolutionsPage.html">
+        <input type="checkbox" id="Solution1" name="Solution1" value="Website" onclick="selectOnlyThis(this.id)">
+        <label for="Solution1"> Jeg ønsker at få en hjemmeside.</label><br>
+        <input type="checkbox" id="Solution2" name="Solution2" value="Webshop" onclick="selectOnlyThis(this.id)">
+        <label for="Solution2"> Jeg ønsker at få en webshop.</label><br>
+        <input type="checkbox" id="Solution3" name="Solution3" value="Application" onclick="selectOnlyThis(this.id)">
+        <label for="Solution3"> Jeg ønsker en applikation.</label><br><br>
+        <input type="submit" value="Næste" onclick="return WhichSolutionIsChecked();">
+    </form>
+
 </div>
+<script src="../Scripts/NORRIQSolutions.js"></script>
 </body>
 </html>
+
