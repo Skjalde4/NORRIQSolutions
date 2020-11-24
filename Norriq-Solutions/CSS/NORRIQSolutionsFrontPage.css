@@ -1,5 +1,19 @@
-﻿.header-logo-solutions {
-    padding-top: 15px;
+﻿.body {
+    margin: 8px;
+}
+.header-main {
+    align-items: center;
+}
+
+.header-logo-solutions {
+    height: auto;
+    flex: 1 0 10%;
+    order: 1;
+    justify-content: flex-start;
+    text-align: left;
+    max-width: 10%;
+    margin-top: 34px;
+    margin-left: 7px;
 }
 
 .main-body {

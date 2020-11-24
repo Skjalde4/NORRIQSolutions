@@ -213,6 +213,7 @@
     <Content Include="image\NORRIQSolutionsLogo.jpg" />
     <Content Include="image\NORRIQSolutionsLogo.png" />
     <Content Include="image\SearchIcon.png" />
+    <Content Include="image\video-1606146246.mp4" />
     <Content Include="Pages\NORRIQFrontPage.html" />
     <Content Include="Pages\NORRIQSolutionsApplication.html" />
     <Content Include="Pages\NORRIQSolutionsPage.html" />
