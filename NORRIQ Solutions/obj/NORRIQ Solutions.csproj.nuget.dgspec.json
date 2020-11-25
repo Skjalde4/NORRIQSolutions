@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helen\\source\\repos\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj": {}
+    "C:\\Users\\helen\\source\\repos\\Skjalde4\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helen\\source\\repos\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj": {
+    "C:\\Users\\helen\\source\\repos\\Skjalde4\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helen\\source\\repos\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj",
+        "projectUniqueName": "C:\\Users\\helen\\source\\repos\\Skjalde4\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj",
         "projectName": "NORRIQ Solutions",
-        "projectPath": "C:\\Users\\helen\\source\\repos\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj",
+        "projectPath": "C:\\Users\\helen\\source\\repos\\Skjalde4\\NORRIQSolutions\\NORRIQ Solutions\\NORRIQ Solutions.csproj",
         "packagesPath": "C:\\Users\\helen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helen\\source\\repos\\NORRIQSolutions\\NORRIQ Solutions\\obj\\",
+        "outputPath": "C:\\Users\\helen\\source\\repos\\Skjalde4\\NORRIQSolutions\\NORRIQ Solutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -69,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,7 +18,7 @@
 
 .main-body {
     color: white;
-    margin: 4% 40%;
+    margin: 4% 30% 4% 40%;
 }
 
 label {
@@ -32,6 +32,7 @@ label {
 
 .description {
     font-size: 12px;
+    padding-left: 25px;
 }
 
 input [type=submit] {
