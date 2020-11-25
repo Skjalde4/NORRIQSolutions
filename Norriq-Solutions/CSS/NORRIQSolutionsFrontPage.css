@@ -25,6 +25,15 @@ label {
     color: #5dbcd2;
 }
 
+.questions {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 12px;
+}
+
 input [type=submit] {
     align-items: end;
 }

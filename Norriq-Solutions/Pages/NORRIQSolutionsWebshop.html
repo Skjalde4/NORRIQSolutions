@@ -6,11 +6,32 @@
     <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
 </head>
 <body style="background-color:#002e36">
-<div class="header-main" style="background-color:#002e36">
-    <div class="header-logo-solutions">
-        <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
-    </div>
+    <div class="header-main" style="background-color:#002e36">
+        <div class="header-logo-solutions">
+            <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+        </div>
 </div>
+
+<div class="main-body">
+    <p class="questions">Fortæl os mere om din hjemmeside</p>
+    <form action="../Pages/NORRIQSolutionsPage.html">
+        <input type="checkbox" id="WebshopSolution1" name="WebshopSolution1" value="Website" onclick="selectOnlyThisWebshop(this.id)">
+        <label for="WebshopSolution1"> Jeg ønsker en opsætning af en webshop.</label><br>
+        <p class="description">Her skal der være en beskrivelse</p>
+
+        <input type="checkbox" id="WebshopSolution2" name="WebshopSolution2" value="Webshop" onclick="selectOnlyThisWebshop(this.id)">
+        <label for="WebshopSolution2"> Jeg ønsker en kompleks webshop.</label><br>
+        <p class="description">Her skal der være en beskrivelse</p>
+
+        <input type="checkbox" id="WebshopSolution3" name="WebshopSolution3" value="Application" onclick="selectOnlyThisWebshop(this.id)">
+        <label for="WebshopSolution3"> Jeg ønsker at flytte min webshop.</label><br><br>
+        <p class="description">Her skal der være en beskrivelse</p>
+
+        <input type="submit" value="Næste" onclick="return WhichSolutionIsCheckedWebshop();">
+    </form>
+
+</div>
+<script src="../Scripts/NORRIQSolutions.js"></script>
 
 </body>
 </html>
