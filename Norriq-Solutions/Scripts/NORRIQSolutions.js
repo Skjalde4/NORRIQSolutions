@@ -47,6 +47,7 @@ function WhichSolutionIsCheckedWebsite() {
     }
     if (solution5.checked) {
         window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
+        //Flytte løsningerne skal henvise til en anden side
         return false;
     }
     return true;
@@ -67,6 +68,7 @@ function WhichSolutionIsCheckedWebshop() {
     }
     if (solution3.checked) {
         window.location.href = "https://localhost:44311/Pages/BusinessPage.html";
+        //Flytte løsningerne skal henvise til en anden side
         return false;
     }
     return true;
@@ -78,15 +80,16 @@ function WhichSolutionIsCheckedApplication() {
     var solution3 = document.getElementById("ApplicationSolution3");
 
     if (solution1.checked) {
-        window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
+        window.location.href = "https://localhost:44311/Pages/ApplicationTypePage.html";
         return false;
     }
     if (solution2.checked) {
-        window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
+        window.location.href = "https://localhost:44311/Pages/ApplicationTypePage.html";
         return false;
     }
     if (solution3.checked) {
-        window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
+        window.location.href = "https://localhost:44311/Pages/ApplicationTypePage.html";
+        //Flytte løsningerne skal henvise til en anden side
         return false;
     }
     return true;
@@ -118,4 +121,8 @@ function selectOnlyThisApplication(id) {
         document.getElementById("ApplicationSolution" + i).checked = false;
     }
     document.getElementById(id).checked = true;
+}
+
+function goBack() {
+    window.history.back();
 }

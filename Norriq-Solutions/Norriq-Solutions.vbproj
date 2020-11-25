@@ -214,6 +214,7 @@
     <Content Include="image\NORRIQSolutionsLogo.png" />
     <Content Include="image\SearchIcon.png" />
     <Content Include="image\video-1606146246.mp4" />
+    <Content Include="Pages\ApplicationTypePage.html" />
     <Content Include="Pages\BusinessPage.html" />
     <Content Include="Pages\FunctionPage.html" />
     <Content Include="Pages\NORRIQFrontPage.html" />

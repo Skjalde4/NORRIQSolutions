@@ -16,17 +16,19 @@
         <form action="../Pages/NORRIQSolutionsPage.html">
             <input type="checkbox" id="ApplicationSolution1" name="ApplicationSolution1" value="Website" onclick="selectOnlyThisApplication(this.id)">
             <label for="ApplicationSolution1"> Jeg ønsker en simpel applikaton.</label><br>
-            <p class="description">Her skal der være en beskrivelse</p>
+            <p class="description">Få en simpel applikation med biografi og kontaktformular.</p>
 
             <input type="checkbox" id="ApplicationSolution2" name="ApplicationSolution2" value="Webshop" onclick="selectOnlyThisApplication(this.id)">
             <label for="ApplicationSolution2"> Jeg ønsker en kompleks applikation.</label><br>
-            <p class="description">Her skal der være en beskrivelse</p>
+            <p class="description">Få en fantastisk hjemmeside med tilpassede visuelle elementer, klientadministration mm.</p>
 
             <input type="checkbox" id="ApplicationSolution3" name="ApplicationSolution3" value="Application" onclick="selectOnlyThisApplication(this.id)">
             <label for="ApplicationSolution3"> Jeg ønsker at flytte min applikation.</label><br>
-            <p class="description">Her skal der være en beskrivelse</p>
-
+            <p class="description">Flyt din eksisterende applikation til NORRIQ hosting.</p>
+            
+            <button onclick="goBack()">Tilbage</button>
             <input type="submit" value="Næste" onclick="return WhichSolutionIsCheckedApplication();">
+
         </form>
 
     </div>

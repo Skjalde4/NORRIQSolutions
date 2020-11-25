@@ -13,20 +13,21 @@
 </div>
 
 <div class="main-body">
-    <p class="questions">Fortæl os mere om din hjemmeside</p>
+    <p class="questions">Fortæl os mere om din webshop</p>
     <form action="../Pages/NORRIQSolutionsPage.html">
         <input type="checkbox" id="WebshopSolution1" name="WebshopSolution1" value="Website" onclick="selectOnlyThisWebshop(this.id)">
         <label for="WebshopSolution1"> Jeg ønsker en opsætning af en webshop.</label><br>
-        <p class="description">Her skal der være en beskrivelse</p>
+        <p class="description">Få en webshop opsat med plads til op til 20 produkter, tilføj betaling og levering.</p>
 
         <input type="checkbox" id="WebshopSolution2" name="WebshopSolution2" value="Webshop" onclick="selectOnlyThisWebshop(this.id)">
         <label for="WebshopSolution2"> Jeg ønsker en kompleks webshop.</label><br>
-        <p class="description">Her skal der være en beskrivelse</p>
+        <p class="description">Tilpas produktsiderne, forbedr synligheden, tilføj specielle menuer mm.</p>
 
         <input type="checkbox" id="WebshopSolution3" name="WebshopSolution3" value="Application" onclick="selectOnlyThisWebshop(this.id)">
         <label for="WebshopSolution3"> Jeg ønsker at flytte min webshop.</label><br>
-        <p class="description">Her skal der være en beskrivelse</p>
+        <p class="description">Flyt en eksisterende webshop til NORRIQ hosting.</p>
 
+        <button onclick="goBack()">Tilbage</button>
         <input type="submit" value="Næste" onclick="return WhichSolutionIsCheckedWebshop();">
     </form>
 

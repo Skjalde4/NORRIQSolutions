@@ -3,21 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
 </head>
-<body>
-<div class="main-body">
-    <p>Hvad har du brug for hjælp til?</p>
-    <form action="../Pages/NORRIQSolutionsPage.html">
-        <input type="checkbox" id="ApplicationSolution1" name="ApplicationSolution1" value="Website" onclick="selectOnlyThisApplication(this.id)">
-        <label for="ApplicationSolution1"> Jeg ønsker at få en hjemmeside.</label><br>
-        <input type="checkbox" id="ApplicationSolution2" name="ApplicationSolution2" value="Webshop" onclick="selectOnlyThisApplication(this.id)">
-        <label for="ApplicationSolution2"> Jeg ønsker at få en webshop.</label><br>
-        <input type="checkbox" id="Solution3" name="ApplicationSolution3" value="Application" onclick="selectOnlyThisApplication(this.id)">
-        <label for="ApplicationSolution3"> Jeg ønsker en applikation.</label><br><br>
-        <input type="submit" value="Næste" onclick="return WhichSolutionIsCheckedApplication();">
-    </form>
-
+<body style="background-color:#002e36">
+<div class="header-main" style="background-color:#002e36">
+    <div class="header-logo-solutions">
+        <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+    </div>
 </div>
-<script src="../Scripts/NORRIQSolutions.js"></script>
+    <div class="main-body">
+        <p>Hvad har du brug for hjælp til?</p>
+        <form action="../Pages/NORRIQSolutionsPage.html">
+            <input type="checkbox" id="ApplicationSolution1" name="ApplicationSolution1" value="Website" onclick="selectOnlyThisApplication(this.id)">
+            <label for="ApplicationSolution1"> Jeg ønsker at få en hjemmeside.</label><br>
+            <input type="checkbox" id="ApplicationSolution2" name="ApplicationSolution2" value="Webshop" onclick="selectOnlyThisApplication(this.id)">
+            <label for="ApplicationSolution2"> Jeg ønsker at få en webshop.</label><br>
+            <input type="checkbox" id="Solution3" name="ApplicationSolution3" value="Application" onclick="selectOnlyThisApplication(this.id)">
+            <label for="ApplicationSolution3"> Jeg ønsker en applikation.</label><br><br>
+
+            <button onclick="goBack()">Tilbage</button>
+            <input type="submit" value="Næste" onclick="return WhichSolutionIsCheckedApplication();">
+        </form>
+
+    </div>
+    <script src="../Scripts/NORRIQSolutions.js"></script>
 </body>
 </html>
