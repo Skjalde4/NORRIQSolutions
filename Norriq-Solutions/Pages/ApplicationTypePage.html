@@ -6,11 +6,27 @@
     <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
 </head>
 <body style="background-color:#002e36">
-<div class="header-main" style="background-color:#002e36">
-    <div class="header-logo-solutions">
-        <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+    <div class="header-main" style="background-color:#002e36">
+        <div class="header-logo-solutions">
+            <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+        </div>
     </div>
-</div>
+    <div class="main-body">
+        <p>Hvilken applikationstype ønsker du?</p>
+        <form action="../Pages/FunctionPage.html">
+            <input type="checkbox" id="ApplicationSolution1" name="ApplicationSolution1" value="IOS" onclick="selectOnlyThisApplication(this.id)">
+            <label for="ApplicationSolution1"> Jeg ønsker en IOS applikation.</label><br>
+            <input type="checkbox" id="ApplicationSolution2" name="ApplicationSolution2" value="Android" onclick="selectOnlyThisApplication(this.id)">
+            <label for="ApplicationSolution2"> Jeg ønsker en Android applikation.</label><br>
+            <input type="checkbox" id="ApplicationSolution3" name="ApplicationSolution3" value="Cross" onclick="selectOnlyThisApplication(this.id)">
+            <label for="ApplicationSolution3"> Jeg ønsker en Cross applikation.</label><br><br>
+
+            <button onclick="goBack()">Tilbage</button>
+            <input type="submit" value="Næste" onclick="return WhichApplicationTypeIsChecked()">
+        </form>
+
+    </div>
+    <script src="../Scripts/NORRIQSolutions.js"></script>
 
 </body>
 </html>
