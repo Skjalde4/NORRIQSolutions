@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lokal samarbejdspartner</title>
+    <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
+</head>
+<body style="background-color:#002e36">
+<div class="header-main" style="background-color:#002e36">
+    <div class="header-logo-solutions">
+        <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+    </div>
+</div>
+<div class="main-body">
+    <p>Ønsker du en lokal samarbejdspartner?</p>
+    <form action="../Pages/LanguagePage.html">
+        <input type="checkbox" id="AnswerYes" name="Yes" value="Yes" onclick="WishALocalPartner();">
+        <label for="Yes"> Ja. </label><input id="City" placeholder="Indtast by." style="display: none"/>
+        <p id="CityNotSelected"></p>
+        <input type="checkbox" id="AnswerNo" name="No" value="No" onclick="WishALocalPartner();">
+        <label for="No"> Nej.</label><br> <br/>
+        
+
+        <button onclick="goBack()">Tilbage</button>
+        <input type="button" value="Næste" onclick="CheckIfLocalPartnerIsFilledOut();">
+    </form>
+
+</div>
+<script src="../Scripts/NORRIQSolutions.js"></script>
+</body>
+</html>

@@ -143,6 +143,21 @@ function WhichFunctionIsChecked() {
     return true;
 }
 
+function WishALocalPartner() {
+    var answer1 = document.getElementById("AnswerYes");
+    var answer2 = document.getElementById("AnswerNo");
+    var city = document.getElementById("City");
+
+    if (answer1.checked) {
+        city.style.display = "block";
+    }
+    if (answer2.checked) {
+        answer1.checked = false;
+        city.style.display = "none";
+    }
+
+}
+
 function selectOnlyThis(id) {
     for (var i = 1; i <= 3; i++) {
         document.getElementById("Solution" + i).checked = false;
@@ -185,8 +200,27 @@ function CheckIfBusinessIsEmpty() {
     } else {
         window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
     }
-        
+}
 
+function CheckIfLocalPartnerIsFilledOut() {
+    var answer1 = document.getElementById("AnswerYes");
+    var answer2 = document.getElementById("AnswerNo");
+    var city = document.getElementById("City");
+    var isEmpty = true;
+
+    if (city.value !== "") {
+        isEmpty = false;
+    } else {
+        document.getElementById("CityNotSelected").innerHTML = "Dette felt skal udfyldes.";
+        isEmpty = true;
+    }
+    if (answer1.checked && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+    }
+
+    if (answer2.checked) {
+        window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+    }
 }
 
 function goBack() {
