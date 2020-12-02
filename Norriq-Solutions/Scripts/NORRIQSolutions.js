@@ -178,6 +178,17 @@ function selectOnlyThisFunction(id) {
     document.getElementById(id).checked = true;
 }
 
+function CheckIfBusinessIsEmpty() {
+    var business = document.getElementById("BusinessSelection");
+    if (business.value === "") {
+        document.getElementById("BusinessNotSelected").innerHTML = "Dette felt skal udfyldes.";
+    } else {
+        window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+    }
+        
+
+}
+
 function goBack() {
     window.history.back();
 }
