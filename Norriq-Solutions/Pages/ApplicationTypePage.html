@@ -19,10 +19,12 @@
             <input type="checkbox" id="ApplicationSolution2" name="ApplicationSolution2" value="Android" onclick="selectOnlyThisApplication(this.id)">
             <label for="ApplicationSolution2"> Jeg ønsker en Android applikation.</label><br>
             <input type="checkbox" id="ApplicationSolution3" name="ApplicationSolution3" value="Cross" onclick="selectOnlyThisApplication(this.id)">
-            <label for="ApplicationSolution3"> Jeg ønsker en Cross applikation.</label><br><br>
-
+            <label for="ApplicationSolution3"> Jeg ønsker en Cross applikation.</label>
+            
+            <p id="appTypeMsg"></p><br><br>
+                  
             <button onclick="goBack()">Tilbage</button>
-            <input type="submit" value="Næste" onclick="return WhichApplicationTypeIsChecked()">
+            <input type="button" value="Næste" onclick="return WhichApplicationTypeIsChecked()">
         </form>
 
     </div>

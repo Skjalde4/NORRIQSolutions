@@ -42,15 +42,17 @@ function WhichSolutionIsCheckedWebsite() {
         return false;
     }
     if (solution4.checked) {
-        window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
+        window.location.href = "https://localhost:44311/Pages/MovingPage.html";
         return false;
     }
     if (solution5.checked) {
         window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
-        //Flytte løsningerne skal henvise til en anden side
+        
         return false;
+    }else {
+        document.getElementById("websiteMsg").innerHTML = "Vælg venligst en løsning";
+        return true;
     }
-    return true;
 }
 
 function WhichSolutionIsCheckedWebshop() {
@@ -67,11 +69,13 @@ function WhichSolutionIsCheckedWebshop() {
         return false;
     }
     if (solution3.checked) {
-        window.location.href = "https://localhost:44311/Pages/BusinessPage.html";
-        //Flytte løsningerne skal henvise til en anden side
+        window.location.href = "https://localhost:44311/Pages/MovingPage.html";
+       
         return false;
+    }else {
+        document.getElementById("webshopMsg").innerHTML = "Vælg venligst en løsning";
+        return true;
     }
-    return true;
 }
 
 function WhichSolutionIsCheckedApplication() {
@@ -88,11 +92,14 @@ function WhichSolutionIsCheckedApplication() {
         return false;
     }
     if (solution3.checked) {
-        window.location.href = "https://localhost:44311/Pages/ApplicationTypePage.html";
-        //Flytte løsningerne skal henvise til en anden side
+        window.location.href = "https://localhost:44311/Pages/MovingPage.html";
+
         return false;
+    } else {
+        document.getElementById("appMsg").innerHTML = "Vælg venligst en løsning";
+        return true;
     }
-    return true;
+    
 }
 
 
@@ -113,8 +120,10 @@ function WhichApplicationTypeIsChecked() {
     if (solution3.checked) {
         window.location.href = "https://localhost:44311/Pages/FunctionPage.html";
         return false;
+    }else {
+        document.getElementById("appTypeMsg").innerHTML = "Vælg venligst en løsning";
+        return true;
     }
-    return true;
     
 }
 
@@ -139,8 +148,34 @@ function WhichFunctionIsChecked() {
     if (solution4.checked) {
         window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
         return false;
+    }else {
+        document.getElementById("functionMsg").innerHTML = "Vælg venligst en løsning";
+        return true;
     }
-    return true;
+}
+
+
+function WhichMovingSolutionIsChecked() {
+    var solution1 = document.getElementById("MovingSolution1");
+    var solution2 = document.getElementById("MovingSolution2");
+    var solution3 = document.getElementById("MovingSolution3");
+
+    if (solution1.checked) {
+        window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+        return false;
+    }
+    if (solution2.checked) {
+        window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+        return false;
+    }
+    if (solution3.checked) {
+        window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+        return false;
+    }else {
+        document.getElementById("movingMsg").innerHTML = "Vælg venligst en løsning";
+        return true;
+    }
+
 }
 
 function WishALocalPartner() {
@@ -193,6 +228,13 @@ function selectOnlyThisFunction(id) {
     document.getElementById(id).checked = true;
 }
 
+function selectOnlyThisMovingSolution(id) {
+    for (var i = 1; i <= 3; i++) {
+        document.getElementById("MovingSolution" + i).checked = false;
+    }
+    document.getElementById(id).checked = true;
+}
+
 function CheckIfBusinessIsEmpty() {
     var business = document.getElementById("BusinessSelection");
     if (business.value === "") {
@@ -221,6 +263,45 @@ function CheckIfLocalPartnerIsFilledOut() {
     if (answer2.checked) {
         window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
     }
+}
+
+function WhichLanguageIsSelected() {
+    var lang2 = document.getElementById("lang2");
+    var lang3 = document.getElementById("lang3");
+    var lang4 = document.getElementById("lang4");
+    var lang5 = document.getElementById("lang5");
+    var lang6 = document.getElementById("lang6");
+    var lang = document.getElementById("lang");
+    var isEmpty = true;
+
+    if (lang.value !== "") {
+        isEmpty = false;
+    } else {
+        document.getElementById("langNotSelected").innerHTML = "Der skal vælges et sprog";
+        isEmpty = true;
+    }
+    if (lang2.value == "Dansk" && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/LocalPartnerPage.html";
+        isEmpty = false;
+    }
+    if (lang3.value == "Engelsk" && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/LocalPartnerPage.html";
+        isEmpty = false;
+    }
+    if (lang4.value == "Norsk" && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/LocalPartnerPage.html";
+        isEmpty = false;
+    }
+    if (lang5.value == "Svensk" && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/LocalPartnerPage.html";
+        isEmpty = false;
+    }
+    if (lang6.value == "Tysk" && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/LocalPartnerPage.html";
+        isEmpty = false;
+    }
+    
+
 }
 
 function goBack() {

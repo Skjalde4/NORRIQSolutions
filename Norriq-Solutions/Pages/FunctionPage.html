@@ -14,17 +14,19 @@
     <div class="main-body">
         <p>Hvilke funktioner ønsker du?</p>
         <form action="../Pages/LanguagePage.html">
-            <input type="checkbox" id="FuntionSolution1" name="FunctionSolution1" value="Booking" onclick="selectOnlyThisFuntion(this.id)">
+            <input type="checkbox" id="FunctionSolution1" name="FunctionSolution1" value="Booking" onclick="selectOnlyThisFuntion(this.id)">
             <label for="FunctionSolution1"> Booking.</label><br>
             <input type="checkbox" id="FunctionSolution2" name="FunctionSolution2" value="Event" onclick="selectOnlyThisFunction(this.id)">
             <label for="FunctionSolution2"> Event.</label><br>
             <input type="checkbox" id="FunctionSolution3" name="FunctionSolution3" value="Restaurant" onclick="selectOnlyThisFunction(this.id)">
             <label for="FunctionSolution3"> Restaurant.</label><br>
             <input type="checkbox" id="FunctionSolution4" name="FunctionSolution4" value="Webudvikling" onclick="selectOnlyThisFunction(this.id)">
-            <label for="FunctionSolution4"> Webudvikling.</label><br><br>
+            <label for="FunctionSolution4"> Webudvikling.</label>
+
+            <p id="functionMsg"></p><br><br>
 
             <button onclick="goBack()">Tilbage</button>
-            <input type="submit" value="Næste" onclick="return WhichFunctionIsChecked()">
+            <input type="button" value="Næste" onclick="return WhichFunctionIsChecked()" />
         </form>
 
     </div>

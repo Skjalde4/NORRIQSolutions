@@ -1,0 +1,35 @@
+﻿o<!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="utf-8" />
+     <title></title>
+     <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
+ </head>
+ <body style="background-color:#002e36">
+     <div class="header-main" style="background-color:#002e36">
+         <div class="header-logo-solutions">
+             <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+         </div>
+     </div>
+
+     <div class="main-body">
+         <p>Hvad vil du have flyttet?</p>
+         <form action="../Pages/LanguagePage.html">
+             <input type="checkbox" id="MovingSolution1" name="MovingSolution1" value="Hosting" onclick="selectOnlyThisMovingSolution(this.id)">
+             <label for="MovingSolution1"> Hosting.</label><br>
+             <input type="checkbox" id="MovingSolution2" name="MovingSolution2" value="GUI" onclick="selectOnlyThisMovingSolution(this.id)">
+             <label for="MovingSolution2"> GUI design.</label><br>
+             <input type="checkbox" id="MovingSolution3" name="MovingSolution3" value="Hosting og GUI" onclick="selectOnlyThisMovingSolution(this.id)">
+             <label for="MovingSolution3"> Både hosting og GUI design.</label>
+
+             <p id="movingMsg"></p><br><br />
+
+             <button onclick="goBack()">Tilbage</button>
+             <input type="button" value="Næste" onclick="return WhichMovingSolutionIsChecked()">
+         </form>
+
+     </div>
+     <script src="../Scripts/NORRIQSolutions.js"></script>
+
+ </body>
+ </html>

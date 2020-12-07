@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color:#002e36">
     <div class="header-main" style="background-color:#002e36">
@@ -11,5 +13,25 @@
             <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
         </div>
     </div>
+    <div class="main-body">
+        <p>Hvilket sprog skal løsningen være på?</p>
+        <i class="fa fa-globe"></i>
+        <select style="width:55%;" id="lang">
+            <option id="lang1" value="" disabled selected>Vælg et sprog</option>
+            <option id="lang2" value="Dansk">Dansk</option>
+            <option id="lang3" value="Engelsk">Engelsk</option>
+            <option id="lang4" value="Norsk">Norsk</option>
+            <option id="lang5" value="Svensk">Svensk</option>
+            <option id="lang6" value="Tysk">Tysk</option>
+        </select>
+        <p id="langNotSelected"></p>
+        <br /> <br />
+
+        <button onclick="goBack()">Tilbage</button>
+        <input type="submit" value="Næste" onclick="WhichLanguageIsSelected();">
+    </div>
+    
+    <script src="../Scripts/NORRIQSolutions.js"></script>
+
 </body>
 </html>

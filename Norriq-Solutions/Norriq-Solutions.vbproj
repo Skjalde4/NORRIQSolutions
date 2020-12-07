@@ -206,6 +206,7 @@
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="image\FrontPageBackground.png" />
+    <Content Include="image\globe.png" />
     <Content Include="image\LanguageIcon.png" />
     <Content Include="image\NORRIQ-Logo-WhiteBlue.svg" />
     <Content Include="image\NORRIQ-logo.png" />
@@ -219,6 +220,7 @@
     <Content Include="Pages\FunctionPage.html" />
     <Content Include="Pages\LanguagePage.html" />
     <Content Include="Pages\LocalPartnerPage.html" />
+    <Content Include="Pages\MovingPage.html" />
     <Content Include="Pages\NORRIQFrontPage.html" />
     <Content Include="Pages\NORRIQSolutionsApplication.html" />
     <Content Include="Pages\NORRIQSolutionsPage.html" />
