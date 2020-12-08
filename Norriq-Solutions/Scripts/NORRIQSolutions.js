@@ -193,6 +193,21 @@ function WishALocalPartner() {
 
 }
 
+function HaveAnyDesignIdeas() {
+    var design1 = document.getElementById("DesignYes");
+    var design2 = document.getElementById("DesignNo");
+    var idea = document.getElementById("Idea");
+
+    if (design1.checked) {
+        idea.style.display = "block";
+        
+    }
+    if (design2.checked) {
+        idea.style.display = "none";
+        design1.checked = false;
+    }
+}
+
 function selectOnlyThis(id) {
     for (var i = 1; i <= 3; i++) {
         document.getElementById("Solution" + i).checked = false;
@@ -262,6 +277,26 @@ function CheckIfLocalPartnerIsFilledOut() {
 
     if (answer2.checked) {
         window.location.href = "https://localhost:44311/Pages/LanguagePage.html";
+    }
+}
+
+function CheckIfDesignIdeasIsFilledOut() {
+    var design1 = document.getElementById("DesignYes");
+    var design2 = document.getElementById("DesignNo");
+    var inputIdea = document.getElementById("InputIdea");
+    var isEmpty = true;
+
+    if (inputIdea.value !== "") {
+        isEmpty = false;
+    } else {
+        document.getElementById("IdeasNotInserted").innerHTML = "Venligst udfyld feltet med dine ideer";
+        isEmpty = true;
+    }
+    if (design1.checked && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/CreateUserPage.html";
+    }
+    if (design2.checked && isEmpty === false) {
+        window.location.href = "https://localhost:44311/Pages/CreateUserPage.html";
     }
 }
 

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
+</head>
+<body style="background-color:#002e36">
+    <div class="header-main" style="background-color:#002e36">
+        <div class="header-logo-solutions">
+            <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+        </div>
+    </div>
+
+    <div class="main-body">
+
+        <p>Har du nogle design ideer?</p>
+        <input type="checkbox" id="DesignYes" name="Yes" value="Yes" onclick="HaveAnyDesignIdeas()">
+        <label for="Yes"> Ja. </label><div id="Idea" style="display: none">
+            <textarea id="InputIdea"  rows="10" cols="50" style="font-family:'Times New Roman';font-size:14px;">Indtast ideer.</textarea>
+        
+        <br />
+            <input type="file" id="DesignFile" name="filename">
+        </div>
+        <p id="IdeasNotInserted"></p>
+        <input type="checkbox" id="DesignNo" name="No" value="No" onclick="HaveAnyDesignIdeas()">
+        <label for="No"> Nej.</label><br> <br />
+
+        <button onclick="goBack()">Tilbage</button>
+        <input type="button" value="Næste" onclick="CheckIfDesignIdeasIsFilledOut()">
+
+    </div>
+
+    <script src="../Scripts/NORRIQSolutions.js"></script>
+
+</body>
+</html>

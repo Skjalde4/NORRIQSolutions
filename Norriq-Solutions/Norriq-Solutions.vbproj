@@ -217,6 +217,8 @@
     <Content Include="image\video-1606146246.mp4" />
     <Content Include="Pages\ApplicationTypePage.html" />
     <Content Include="Pages\BusinessPage.html" />
+    <Content Include="Pages\CreateUserPage.html" />
+    <Content Include="Pages\DesignIdeasPage.html" />
     <Content Include="Pages\FunctionPage.html" />
     <Content Include="Pages\LanguagePage.html" />
     <Content Include="Pages\LocalPartnerPage.html" />
