@@ -2,9 +2,43 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Opret bruger</title>
+    <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
 </head>
-<body>
+<body style="background-color:#002e36">
+    <div class="header-main" style="background-color:#002e36">
+        <div class="header-logo-solutions">
+            <a class="header-logo-solutions" href="NORRIQFrontPage.html"><img src="../image/NORRIQ-Logo-WhiteBlue.svg"></a>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <p>Opret bruger</p>
+        <form>
+            <label for="CVRNo"> CVR nummer: </label> <br />
+            <input type="text" id="CVRNo" name="CVRNo"><br /><br />
+
+            <label for="CompanyName"> Virksomhedsnavn: </label> <br />
+            <input type="text" id="CompanyName" name="CompanyName"><br /><br />
+
+            <label for="ContactPerson"> Navn på kontaktperson: </label><br />
+            <input type="text" id="ContactPerson" name="ContactPerson"><br /><br />
+
+            <label for="Email"> Email: </label><br />
+            <input type="text" id="Email" name="Email"><br /><br />
+
+            <label for="PhoneNo"> Telefonnummer: </label><br />
+            <input type="text" id="PhoneNo" name="PhoneNo"> <br />
+
+            <p id="createMsg"></p><br /><br />
+
+            <button onclick="goBack()">Tilbage</button>
+            <input type="button" value="Næste" onclick="CheckIfCreateUserIsFilledOut();">
+
+        </form>
+
+    </div>
+    <script src="../Scripts/NORRIQSolutions.js"></script>
 
 </body>
 </html>

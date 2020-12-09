@@ -295,9 +295,56 @@ function CheckIfDesignIdeasIsFilledOut() {
     if (design1.checked && isEmpty === false) {
         window.location.href = "https://localhost:44311/Pages/CreateUserPage.html";
     }
-    if (design2.checked && isEmpty === false) {
+    if (design2.checked) {
         window.location.href = "https://localhost:44311/Pages/CreateUserPage.html";
     }
+}
+
+function CheckIfCreateUserIsFilledOut() {
+    var cvrNo = document.getElementById("CVRNo");
+    var companyName = document.getElementById("CompanyName");
+    var contactPerson = document.getElementById("ContactPerson");
+    var email = document.getElementById("Email");
+    var phoneNo = document.getElementById("PhoneNo");
+    var isEmpty = true;
+
+    if (cvrNo.value === "" && companyName.value === "" && contactPerson.value === "" && email.value === "" && phoneNo.value === "") {
+        document.getElementById("createMsg").innerHTML = "Venligst udfyld alle felterne";
+        isEmpty = true;
+        return;
+    }
+    if (cvrNo.value === "") {
+        document.getElementById("createMsg").innerHTML = "Venligst udfyld dit cvr nummer";
+        isEmpty = true;
+        return;
+    }
+    if (companyName.value === "") {
+        document.getElementById("createMsg").innerHTML = "Venligst udfyld din virksomheds navn";
+        isEmpty = true;
+        return;
+    }
+    if (contactPerson.value === "") {
+        document.getElementById("createMsg").innerHTML = "Venligst udfyld dit navn";
+        isEmpty = true;
+       return;
+    }
+    if (email.value === "") {
+        document.getElementById("createMsg").innerHTML = "Venligst udfyld din email";
+        isEmpty = true;
+        return;
+    }
+    if (phoneNo.value === "") {
+        document.getElementById("createMsg").innerHTML = "Venligst udfyld dit telefonnummer";
+        isEmpty = true;
+        return;
+    }
+    
+    if (cvrNo.value !== "" && companyName.value !== "" && contactPerson.value !== "" && email.value !== "" && phoneNo.value !== "") {
+        isEmpty = false;
+        window.location.href  = "https://localhost:44311/Pages/ConfirmationPage.html";
+    }
+
+
 }
 
 function WhichLanguageIsSelected() {
