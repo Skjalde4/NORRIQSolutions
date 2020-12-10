@@ -1,0 +1,16 @@
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ_Solutions.deps.json
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ_Solutions.runtimeconfig.json
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ_Solutions.runtimeconfig.dev.json
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ_Solutions.dll
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.csprojAssemblyReference.cache
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.RazorAssemblyInfo.cache
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.RazorAssemblyInfo.cs
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.AssemblyInfoInputs.cache
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.AssemblyInfo.cs
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.RazorTargetAssemblyInfo.cache
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\bin\Debug\netcoreapp2.1\NORRIQ_Solutions.pdb
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.dll
+C:\Users\helen\source\repos\Skjalde4\NORRIQSolutions\NORRIQ Solutions\obj\Debug\netcoreapp2.1\NORRIQ_Solutions.pdb

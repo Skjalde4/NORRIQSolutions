@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using NORRIQ_Solutions.Data;
 
 namespace NORRIQ_Solutions
 {
@@ -26,6 +28,9 @@ namespace NORRIQ_Solutions
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<NORRIQ_SolutionsContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("NORRIQ_SolutionsContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
