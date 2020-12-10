@@ -9,7 +9,7 @@ namespace NORRIQ_Solutions.Model
 {
     public class ManageDB
     {
-        const string connectionstring = "Data Source=norriqsolutionsdbserver.database.windows.net;Initial Catalog=NORRIQSolutions_db;User ID=norriqadmin;Password=********;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        const string connectionstring = "Data Source=norriqsolutionsdbserver.database.windows.net;Initial Catalog=NORRIQSolutions_db;User ID=norriqadmin;Password=norriq1234!;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         private const string GET_ALL = "select * from Customer";
         public List<User> UserList = new List<User>();
 
@@ -71,7 +71,7 @@ namespace NORRIQ_Solutions.Model
 
         }
 
-        public void Delete(int id)
+        public void Delete(int customerId)
         {
             using (SqlConnection conn = new SqlConnection(connectionstring))
             {
@@ -81,7 +81,7 @@ namespace NORRIQ_Solutions.Model
                     using (SqlCommand cmd = conn.CreateCommand())
                     {
                         cmd.CommandText = "delete from Customer where id=@ID";
-                        cmd.Parameters.AddWithValue("@ID", id);
+                        cmd.Parameters.AddWithValue("@ID", customerId);
                         cmd.ExecuteNonQuery();
                     }
                 }
