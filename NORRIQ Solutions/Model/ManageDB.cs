@@ -80,7 +80,7 @@ namespace NORRIQ_Solutions.Model
                 {
                     using (SqlCommand cmd = conn.CreateCommand())
                     {
-                        cmd.CommandText = "delete from Customer where id=@ID";
+                        cmd.CommandText = "delete from Customer where CustomerId=@ID";
                         cmd.Parameters.AddWithValue("@ID", customerId);
                         cmd.ExecuteNonQuery();
                     }
