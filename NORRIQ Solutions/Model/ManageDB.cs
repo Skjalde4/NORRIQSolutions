@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 
 namespace NORRIQ_Solutions.Model
 {
@@ -65,6 +63,8 @@ namespace NORRIQ_Solutions.Model
                         cmd.Parameters.AddWithValue("@Param6", user.PhoneNo);
 
                         cmd.ExecuteNonQuery();
+
+                        var json = new JavaScriptSerializer().Serialize(user);
                     }
                 }
             }

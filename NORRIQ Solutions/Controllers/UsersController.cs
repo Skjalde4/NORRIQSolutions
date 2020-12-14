@@ -37,6 +37,7 @@ namespace NORRIQ_Solutions.Controllers
         {
             manageDb.GetAll();
             return manageDb.UserList.Find(i => i.CustomerId == id);
+           
         }
 
         // PUT: api/Users/5

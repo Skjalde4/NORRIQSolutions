@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Opret bruger</title>
     <link rel="stylesheet" href="../CSS/NORRIQSolutionsFrontPage.css" />
+    <script src="../Scripts/NORRIQSolutions.js"></script>
 </head>
 <body style="background-color:#002e36">
     <div class="header-main" style="background-color:#002e36">
@@ -14,7 +15,7 @@
 
     <div class="main-body">
         <p>Opret bruger</p>
-        <form>
+        <form action="javascript:void(0);" method="post" onsubmit="CreateUser()" >
             <label for="CVRNo"> CVR nummer: </label> <br />
             <input type="text" id="CVRNo" name="CVRNo"><br /><br />
 
@@ -33,12 +34,12 @@
             <p id="createMsg"></p><br /><br />
 
             <button onclick="goBack()">Tilbage</button>
-            <input type="button" value="Næste" onclick="CheckIfCreateUserIsFilledOut();">
+            <input id="CreateBtn" type="submit" value="Næste" onclick="CheckIfCreateUserIsFilledOut();">
 
         </form>
 
     </div>
-    <script src="../Scripts/NORRIQSolutions.js"></script>
+   
 
 </body>
 </html>

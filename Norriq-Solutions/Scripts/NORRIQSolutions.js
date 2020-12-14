@@ -1,4 +1,91 @@
-﻿
+﻿var User = {
+    CustomerId: 0,
+    CvrNo: "",
+    CompanyName: "",
+    ContactPerson: "",
+    Email: "",
+    PhoneNo: ""
+};
+
+const uri = 'https://localhost:44311/api/users';
+let users = [];
+
+function CreateUser() {
+    User = new object();
+    User.CvrNo = $("#CVRNo").val();
+    User.CompanyName = $("#CompanyName").val();
+    User.ContactPerson = $("#ContactPerson").val();
+    User.Email = $("#Email").val();
+    User.PhoneNo = $("#PhoneNo").val();
+    if ($("#CreateBtn").text.trim() === "Næste") {
+        AddCustomer(User);
+    }
+
+}
+
+function AddCustomer(user) {
+    $.ajax({
+        url: "/api/users",
+        type: "POST",
+        contentType: "application/json;charset=utf-8",
+        data: JSON.stringify(user),
+        success: function(user) {
+            alert("The customer was added");
+            AddCustomerSuccess(user);
+        },
+        error:function() {
+            alert("An error occurred");
+        }
+    })
+}
+
+
+function AddCustomerSuccess(user) {
+    
+}
+
+
+
+function GetUsers() {
+   
+}
+
+//function CreateUser() {
+//    const cvrNo = document.getElementById("CVRNo");
+//    const companyName = document.getElementById("CompanyName");
+//    const contactPerson = document.getElementById("ContactPerson");
+//    const email = document.getElementById("Email");
+//    const phoneNo = document.getElementById("PhoneNo");
+
+//    const user = {
+//        CvrNo: cvrNo.trim(),
+//        CompanyName: companyName.trim(),
+//        ContactPerson: contactPerson.trim(),
+//        Email: email.trim(),
+//        PhoneNo: phoneNo.trim()
+//    };
+
+//    fetch(uri, {
+            
+//            method: "POST",
+//            headers: {
+//                'Accept': "application/json",
+//                'Content-Type': "application/json"
+//            },
+//            body: JSON.stringify(user)
+//        })
+//        .then(response => response.json())
+//        .then(() => {
+//            cvrNo.value = "";
+//            companyName.value = "";
+//            contactPerson.value = "";
+//            email.value = "";
+//            phoneNo.value = "";
+//        })
+//        .catch(error => console.error("Unable to add user.", error));
+
+
+//}
 
 function WhichSolutionIsChecked() {
     var solution1 = document.getElementById("Solution1");
@@ -341,11 +428,17 @@ function CheckIfCreateUserIsFilledOut() {
     
     if (cvrNo.value !== "" && companyName.value !== "" && contactPerson.value !== "" && email.value !== "" && phoneNo.value !== "") {
         isEmpty = false;
+        CreateUser();
         window.location.href  = "https://localhost:44311/Pages/ConfirmationPage.html";
+        
+
     }
 
+   
 
 }
+
+
 
 function WhichLanguageIsSelected() {
     var lang2 = document.getElementById("lang2");
