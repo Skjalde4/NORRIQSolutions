@@ -40,3 +40,27 @@ input [type=submit] {
     align-items: end;
 }
 
+.column {
+    margin-right: 5px;
+    background-color: slategrey;
+    flex: 50%;
+    opacity: 1.0;
+    text-align: left;
+    padding-left: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.column:hover {
+   opacity: 0.5;
+}
+.row {
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
